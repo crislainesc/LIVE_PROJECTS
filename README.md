@@ -1,6 +1,5 @@
 # *Urna Eletrônica*
 
-#
 - Projeto desenvolvido para fins de estudos.
 
 - Construída com HTML, CSS e JavaScript.
