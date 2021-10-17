@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna Eletrônica</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+    <div class="texto">
+        <div class="linha"></div>
+        <div class="camada"></div>
+        <h1>Urna Eletrônica</h1>
+    </div>
+
+    <div class="urna-area">
+        <div class="urna">
+            <div class="tela">
+                <div class="tela-superior">
+                    <div class="tela-superior-esquerda">
+                        <div class="tela-superior-titulo">
+                            <span>SEU VOTO PARA</span>
+                        </div>
+                        <div class="tela-superior-info">
+                            <span>
+                                <!--Nome do tipo de candidato-->
+                            </span>
+                        </div>
+                        <div class="tela-superior-numeros">
+                            <div class="numero pisca"></div>
+                            <div class="numero"></div>
+                        </div>
+                        <div class="tela-superior-descricao">
+                            <!--Descricao do candidato-->
+                        </div>
+                    </div>
+                    <div class="tela-superior-direita">
+                        <div class="tela-imagem">
+                            <!--Foto do candidato principal-->
+                        </div>
+                        <div class="tela-imagem imagem-menor">
+                            <!--Foto do vice-candidato (quando houver)-->
+                        </div>
+                    </div>
+                </div>
+                <div class="tela-inferior">
+                    Aperte a tecla:<br>
+                    CONFIRMA para CONFIRMAR este voto <br>
+                    CORRIGE para REINICIAR este voto
+                </div>
+            </div>
+            <div class="teclado">
+                <div class="teclado-linha">
+                    <div class="teclado-botao" onclick="clicou('1')">1</div>
+                    <div class="teclado-botao" onclick="clicou('2')">2</div>
+                    <div class="teclado-botao" onclick="clicou('3')">3</div>
+                </div>
+                <div class="teclado-linha">
+                    <div class="teclado-botao" onclick="clicou('4')">4</div>
+                    <div class="teclado-botao" onclick="clicou('5')">5</div>
+                    <div class="teclado-botao" onclick="clicou('6')">6</div>
+                </div>
+                <div class="teclado-linha">
+                    <div class="teclado-botao" onclick="clicou('7')">7</div>
+                    <div class="teclado-botao" onclick="clicou('8')">8</div>
+                    <div class="teclado-botao" onclick="clicou('9')">9</div>
+                </div>
+                <div class="teclado-linha">
+                    <div class="teclado-botao" onclick="clicou('0')">0</div>
+                </div>
+                <div class="teclado-linha">
+                    <div class="teclado-botao botao-branco" onclick="branco()">BRANCO</div>
+                    <div class="teclado-botao botao-corrige" onclick="corrige()">CORRIGE</div>
+                    <div class="teclado-botao botao-confirma" onclick="confirma()">CONFIRMA</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="partidos">
+        <!--Painel com os dados dos candidatos-->
+    </div>
+
+    <script src="js/etapas.js"></script>
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
