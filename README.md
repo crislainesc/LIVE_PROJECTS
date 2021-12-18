@@ -7,7 +7,7 @@ Três projetos em Javascript puro feitos durante uma live com o professor Boniek
 Um simulador da urna eletrônica brasileira. O script recebe um arquivo em javascript contendo as etapas da eleição, bem como os candidatos disponíveis para o pleito.
 
 <p align="center">
-	<img src="https://media.discordapp.net/attachments/831237388583043124/899333458621513809/gif-urna.gif"/>
+	<img src="https://cdn.discordapp.com/attachments/831237388583043124/921879277354512404/unknown.png"/>
 </p>
 
 
