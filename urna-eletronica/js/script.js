@@ -151,7 +151,7 @@ function mostrarCandidatos(partido) {
                 ${candidatos[i].nome}<br>${candidatos[i].numero}
                 </div>
                 <span class="partidos img">
-                <img src="img/${candidatos[i].fotos[0].url}">
+                <img src="images/${candidatos[i].fotos[0].url}">
                 </span>
                 <span class="partidos botao">
                 <button onclick="mostrarPainel()">x</button>
@@ -162,13 +162,13 @@ function mostrarCandidatos(partido) {
                 ${candidatos[i].nome}<br>${candidatos[i].numero}
                 </div>
                 <span class="partidos img">
-                <img src="img/${candidatos[i].fotos[0].url}">
+                <img src="images/${candidatos[i].fotos[0].url}">
                 </span>
                 <div class="partidos candidato">
                 ${candidatos[i].vice}
                 </div>
                 <span class="partidos img">
-                <img src="img/${candidatos[i].fotos[1].url}">
+                <img src="images/${candidatos[i].fotos[1].url}">
                 </span>
                 <span class="partidos botao">
                 <button onclick="mostrarPainel()">x</button>
